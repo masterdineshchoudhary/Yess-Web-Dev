@@ -1,0 +1,6 @@
+-- Position --
+static : default
+relative : elements are positioned relative to its original position
+absolute : elements are positioned relative to its parent element
+fixed
+sticky
