@@ -1,0 +1,49 @@
+body {
+  background-color: plum;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+.titleContainer {
+  background-color: aliceblue;
+  height: 170;
+  width: 27%;
+  float: left;
+  margin-top: 3%;
+  margin-left: 4%;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px gray;
+  animation: dance 10s infinite;
+}
+
+@keyframes dance {
+  0% {transform: rotate(5deg);}
+  20% {transform: rotate(-5deg);}
+  40% {transform: rotate(5deg);}
+  60% {transform: scale(1.1);}
+  80% {transform: rotate(-5deg);}
+  100% {transform: rotate(5deg);}
+}
+
+.titleComponent2 {
+  padding: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.componentHeading {
+  text-align: center;
+}
+
+.image {
+  border-radius: 15px 15px 0px 0px;
+  width: 100% ;
+}
+
+.titleContainer:hover {
+  /* transform: skewX(-10deg); */
+  /* transform: skewY(-10deg); */
+  transform: scale(1.1);
+}

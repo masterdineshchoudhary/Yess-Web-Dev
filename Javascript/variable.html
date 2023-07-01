@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variable</title>
+</head>
+
+<body>
+  <div id="demo">
+    The following elements contains some
+    <code>code</code> and <italic>some text</italic>.
+  </div>
+  <p id="sum"></p>
+  <script>
+    let x = document.getElementById("demo");
+    // innerHTML will display text along with text
+    // alert(x.innerHTML);
+    // innerText will display only text inside the element
+    // alert(x.innerText);
+    let a = document.getElementById("demo").style.fontSize="30px";
+    a = document.getElementById("demo").style.color="red";
+
+    let n1=10, n2=20, n3=n1+n2;
+    document.getElementById("sum").innerHTML= "The sum of 2 numbers is " + n3;
+  
+
+  </script>
+</body>
+
+</html>

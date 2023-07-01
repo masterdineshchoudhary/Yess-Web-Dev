@@ -1,0 +1,22 @@
+.container {
+  margin-top: 20px;
+  border: 1px solid;
+  padding: 10px;
+}
+.container-body {
+  margin-top: 30px;
+  background-color: aliceblue;
+  padding: 10px;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+p {
+  color: blue;
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+}

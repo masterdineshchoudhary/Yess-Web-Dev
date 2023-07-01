@@ -1,0 +1,12 @@
+var movie = [
+{
+  "moviename": "Avengers", 
+  "rating": 4.5, 
+  "type": "Action"
+},
+{
+  "moviename": "Hulk", 
+  "rating": 3.9, 
+  "type": "Thriller"
+}
+]
